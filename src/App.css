@@ -47,7 +47,7 @@
 
 .board-background {
   background-color: #bc9e79;
-
+  height: 50em;
 }
 
 .square:hover {
