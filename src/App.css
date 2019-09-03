@@ -10,9 +10,8 @@
 
 .App-header {
   background-color: #7e3b10;
-  height: 150px;
-  padding-top: 25px;
-  color: white;
+  height: 110px;
+  padding-top: 1px;
 }
 
 .App-title {
@@ -48,9 +47,10 @@
 .board-background {
   background-color: #bc9e79;
   height: 50em;
+  font-size: 1em;
 }
 
 .square:hover {
   background: #7e3b10;
-  transform: scale(1.25);
+  transform: scale(1.15);
 }
