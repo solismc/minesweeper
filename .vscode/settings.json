@@ -1,3 +1,25 @@
 {
     "beautify.config": "string|Object.<string,string|number|boolean>",
+    "beautify.language": {
+
+        "js": {
+            "type": [
+                "javascript",
+                "json",
+                "jsonc"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "css": [
+            "css",
+            "less",
+            "scss"
+        ],
+        "html": [
+            "html"
+        ]
+    },
 }

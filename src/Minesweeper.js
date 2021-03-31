@@ -23,7 +23,7 @@ class Minesweeper extends Component {
                 "Content-Type": "application/json; charset=utf-8"
             },
             body: JSON.stringify({ difficulty: 0 })
-        }).then(resp => resp.json())
+            }).then(resp => resp.json())
             .then(newGame => {
                 console.log("game", newGame);
                 this.setState({
@@ -34,7 +34,7 @@ class Minesweeper extends Component {
             })
     }
     check = (row, column) => {    
-    fetch(BASE_URL + this.state.game.id + "/check",{
+        fetch(BASE_URL + this.state.game.id + "/check",{
             method: "POST",
             headers: {
             "Content-Type": "application/json; charset=utf-8"
