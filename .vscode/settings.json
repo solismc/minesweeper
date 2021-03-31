@@ -1,0 +1,3 @@
+{
+    "beautify.config": "string|Object.<string,string|number|boolean>",
+}
